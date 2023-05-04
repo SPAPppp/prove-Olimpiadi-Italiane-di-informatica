@@ -15,4 +15,4 @@ if CarnetPrice<(trip%CarnetTikets)*TiketPrice:
 else:
     answer=((trip//CarnetTikets)*CarnetPrice)+((trip%CarnetTikets)*TiketPrice)
     with open('output.txt','w') as output:
-        output.write(str(answer))
+        output.write(str(answer)) 
